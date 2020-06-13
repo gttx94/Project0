@@ -1,0 +1,35 @@
+﻿body
+{
+	background-color: lightgreen;
+}
+
+h1 {
+	font: 48px Courier;
+	color: blue;
+	text-align: center;
+}
+
+#style {
+	font: 30px Arial;
+	border-bottom: double;
+	width: 200px;
+}
+
+.block {
+	background-color: aqua;
+	font: bold;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+table, th, td {
+	column-width: auto;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
