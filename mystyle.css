@@ -1,0 +1,48 @@
+#style, h1 {
+  font-family: Courier;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg?size=626&ext=jpg");
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    /*text-align: $state;*/
+    background-image: url("https://i.ytimg.com/vi/_Atneh7B61k/hqdefault.jpg");
+  }
+}
+h1 {
+  font-size: 48px;
+  color: blue;
+  text-align: center;
+}
+
+#style {
+  font-size: 30px;
+  border-bottom: double;
+}
+
+.block {
+  text-align: center;
+  background-color: #ffbb00;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+div p {
+  color: green;
+}
+div ul {
+  color: orange;
+}
+
+/*# sourceMappingURL=mystyle.css.map */

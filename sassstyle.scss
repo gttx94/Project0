@@ -1,0 +1,54 @@
+$state: center;
+
+%textfont {
+    font-family: Courier;
+}
+
+body
+{
+	text-align: $state;
+	background-image: url("https://img.freepik.com/free-photo/beautiful-clouds-blue-sky-background_34251-117.jpg?size=626&ext=jpg");
+	background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+       /*text-align: $state;*/
+        background-image: url("https://i.ytimg.com/vi/_Atneh7B61k/hqdefault.jpg");
+    }
+}
+
+h1 {
+    @extend %textfont;
+	font-size: 48px;
+	color: blue;
+	text-align: $state;
+}
+
+#style {
+    @extend %textfont;
+	font-size: 30px;
+	border-bottom: double;
+}
+
+.block {
+	text-align: $state;
+	background-color: rgb(255, 187, 0);
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 200px;
+}
+
+div {
+    p {
+        color: green;
+    }
+    ul {
+        color: orange;
+    }
+}
